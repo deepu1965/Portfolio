@@ -1,6 +1,90 @@
-# Getting Started with Create React App
+# 🌟 Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+
+## 🚀 Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Add your images:**
+   - Place `profilepic.jpeg` in `src/assets/`
+   - Place `background.jpeg` in `src/assets/`
+
+3. **Start development server:**
+   ```bash
+   npm start
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Deployment Options
+
+### Option 1: Vercel (Recommended)
+
+**Via GitHub (Easiest):**
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Sign up with GitHub
+4. Import your repository: `https://github.com/deepu1965/Portfolio.git`
+5. Deploy automatically
+
+**Via Command Line:**
+```bash
+npx vercel
+```
+
+### Option 2: GitHub Pages
+
+```bash
+npm run deploy
+```
+
+Your site will be available at: `https://deepu1965.github.io/Portfolio`
+
+### Option 3: Netlify
+
+1. Go to [netlify.com](https://netlify.com)
+2. Drag & drop the `build` folder
+3. Or connect your GitHub repository
+
+### Option 4: One-Click Deployment
+
+Run the deployment script:
+```bash
+./deploy.sh
+```
+
+## 🛠️ Tech Stack
+
+- **React 19** - Frontend framework  
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **Heroicons** - Icons
+
+## 📝 Next Steps
+
+1. **Add your images** to `src/assets/`:
+   - `profilepic.jpeg` (your profile picture)
+   - `background.jpeg` (hero background image)
+
+2. **Deploy your site** using any of the options above
+
+3. **Customize content** in the React components
+
+## 🎉 Go Live!
+
+Your portfolio is ready to be deployed. Choose Vercel for the easiest deployment experience!
+
+---
+
+Built with ❤️ by Deepak Pasumarthy
 
 ## Available Scripts
 
