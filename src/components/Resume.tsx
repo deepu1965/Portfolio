@@ -13,14 +13,14 @@ const Resume: React.FC = () => {
       degree: 'Bachelor of Technology in Computer Science & Engineering',
       institution: 'International Institute of Information Technology, Hyderabad',
       period: '2023 - 2027 (Expected)',
-      gpa: 'CGPA: 8.9/10',
+      gpa: 'CGPA: 6.59/10',
       description: 'Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Computer Networks, Operating Systems'
     },
     {
       degree: 'Higher Secondary Education (Class XII)',
       institution: 'Sri Chaitanya Junior College,Gosala,Vijayawada',
       period: '2021 - 2023',
-      gpa: 'Percentage: 98.5%',
+      gpa: 'Percentage: 95.8%',
       description: 'MPC (Mathematics, Physics, Chemistry) with Computer Science'
     },
     {
