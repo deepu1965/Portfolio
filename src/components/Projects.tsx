@@ -11,75 +11,125 @@ const Projects: React.FC = () => {
   const [filter, setFilter] = useState('all');
 
   const projects = [
-    {
-      id: 1,
-      title: 'Data Structures Implementation',
-      description: 'Comprehensive implementation of various data structures including linked lists, trees, graphs, hash tables, and their algorithms in C++.',
-      category: 'algorithms',
-      technologies: ['C++', 'Data Structures', 'Algorithms', 'STL'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 2,
-      title: 'Portfolio Website',
-      description: 'Personal portfolio website built with React and Tailwind CSS showcasing projects, skills, and academic background.',
-      category: 'web',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 3,
-      title: 'Sorting Algorithm Visualizer',
-      description: 'Interactive web application to visualize different sorting algorithms like bubble sort, merge sort, quick sort, and heap sort.',
-      category: 'web',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Canvas API'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'Student Management System',
-      description: 'Database-driven application for managing student records with CRUD operations and search functionality.',
-      category: 'database',
-      technologies: ['Java', 'MySQL', 'JDBC', 'Swing'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 5,
-      title: 'Calculator Application',
-      description: 'Scientific calculator with basic and advanced mathematical operations implemented in Python with GUI.',
-      category: 'applications',
-      technologies: ['Python', 'Tkinter', 'Math Library'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'Academic Projects Collection',
-      description: 'Collection of various programming assignments and projects covering different aspects of computer science.',
-      category: 'academic',
-      technologies: ['C', 'C++', 'Python', 'Java', 'Various Frameworks'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    }
-  ];
+  {
+    id: 1,
+    title: 'MERN Marketplace Platform',
+    description: 'Full-stack MERN platform for 1000+ users with unified buy/sell/rent features, dual-role JWT auth, rate limiting, and 20+ reusable MaterialUI components.',
+    category: 'web',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'MaterialUI'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 2,
+    title: 'Network File System in C',
+    description: 'Scalable multithreaded NFS with LRU caching, concurrent Read-Write locks, audio streaming, and robust error handling over TCP/IP.',
+    category: 'systems',
+    technologies: ['C', 'Sockets', 'Threads', 'TCP/IP', 'LRU Cache'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 3,
+    title: 'Advanced Unix C-Shell',
+    description: 'Custom Unix shell with process control, signal handling (30+), execution time monitoring, and command history using /proc insights.',
+    category: 'systems',
+    technologies: ['C', 'Unix', 'System Programming', '/proc'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 4,
+    title: 'Olympics CLI Database System',
+    description: 'Python CLI for managing 20+ Olympic RDBMS tables with complex SQL JOINs, input validation, and interactive query menus.',
+    category: 'database',
+    technologies: ['Python', 'MySQL', 'SQL', 'RDBMS'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 5,
+    title: 'Image & Video Generator Platform',
+    description: 'Flask-MySQL app with drag-and-drop uploads, JWT-based role auth, and efficient BLOB storage for multi-format media.',
+    category: 'web',
+    technologies: ['Flask', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 6,
+    title: 'D3.js Crufts Data Dashboard',
+    description: 'Interactive dashboard with 3 advanced graphs (sunburst, map, timeline) using 55+ D3 APIs for real-time updates and mobile responsiveness.',
+    category: 'database',
+    technologies: ['D3.js', 'JavaScript', 'Python', 'HTML', 'CSS'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 7,
+    title: 'ML-Driven Collpitts Oscillator',
+    description: 'Arduino-based oscillator circuit using ML regression for adaptive frequency control, <1ms latency over 2400+ sensor readings.',
+    category: 'iot',
+    technologies: ['Arduino', 'C++', 'Polynomial Regression', 'Sensors'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 8,
+    title: 'IoT Fire Detection System',
+    description: 'Sensor-based fire alert system using ThingSpeak dashboard, 3 sensor fusion, and sub-5 second alerting with >90% detection accuracy.',
+    category: 'iot',
+    technologies: ['IoT', 'Sensors', 'ThingSpeak', 'Microcontrollers'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 9,
+    title: 'Crowd Detection with YOLO & DETR',
+    description: 'Real-time people detection and movement tracking system using DETR, YOLO NAS, and Firebase for cloud updates on edge devices.',
+    category: 'iot',
+    technologies: ['YOLO NAS', 'DETR', 'Firebase', 'SORT', 'Computer Vision'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 10,
+    title: 'Portfolio Website',
+    description: 'Personal portfolio website built with React and Tailwind CSS showcasing projects, skills, and academic background.',
+    category: 'web',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  },
+  {
+    id: 11,
+    title: 'Student Management System',
+    description: 'Database-driven application for managing student records with CRUD operations and search functionality.',
+    category: 'database',
+    technologies: ['Java', 'MySQL', 'JDBC', 'Swing'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: true
+  }
+];
+
 
   const categories = [
     { id: 'all', label: 'All Projects', count: projects.length },
     { id: 'web', label: 'Web Development', count: projects.filter(p => p.category === 'web').length },
-    { id: 'algorithms', label: 'Algorithms & DSA', count: projects.filter(p => p.category === 'algorithms').length },
+    { id: 'iot', label: 'Algorithms & DSA', count: projects.filter(p => p.category === 'algorithms').length },
     { id: 'database', label: 'Database Systems', count: projects.filter(p => p.category === 'database').length },
-    { id: 'applications', label: 'Applications', count: projects.filter(p => p.category === 'applications').length },
-    { id: 'academic', label: 'Academic Projects', count: projects.filter(p => p.category === 'academic').length },
+    { id: 'systems', label: 'Applications', count: projects.filter(p => p.category === 'applications').length },
   ];
 
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
