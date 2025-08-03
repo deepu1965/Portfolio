@@ -20,15 +20,15 @@ const Footer: React.FC = () => {
     ],
     'Projects': [
       { name: 'E-Commerce Platform', href: '#' },
-      { name: 'AI Chatbot', href: '#' },
+      { name: 'Network File System', href: '#' },
       { name: 'Data Dashboard', href: '#' },
       { name: 'Mobile App', href: '#' },
     ],
     'Connect': [
-      { name: 'GitHub', href: 'https://github.com' },
-      { name: 'LinkedIn', href: 'https://linkedin.com' },
-      { name: 'Twitter', href: 'https://twitter.com' },
-      { name: 'Email', href: 'mailto:john.doe@iiit.ac.in' },
+      { name: 'GitHub', href: 'https://github.com/deepu1965' },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/in/deepak-pasumarthy/' },
+      { name: 'FaceBook', href: 'https://www.facebook.com/DeepakPasumarthy?rdid=3KByNPpbMC2gQ8Hi&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16TAkNbsrS%2F#' },
+      { name: 'Email', href: 'mailto:pasumarthy.deepak@students.iiit.ac.in' },
     ],
   };
 
