@@ -25,7 +25,6 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'Portfolio Website',
       description: 'Personal portfolio website built with React and Tailwind CSS showcasing projects, skills, and academic background.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
       category: 'web',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
       liveUrl: '#',
@@ -155,12 +154,7 @@ const Projects: React.FC = () => {
               )}
 
               {/* Project Image */}
-              <div className="relative overflow-hidden rounded-lg mb-4">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+              <div className="relative overflow-hidden rounded-lg mb-4"
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex gap-4">
                     <motion.a
