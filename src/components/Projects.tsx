@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  EyeIcon, 
   CodeBracketIcon, 
   ArrowTopRightOnSquareIcon,
   FunnelIcon 
@@ -202,30 +201,6 @@ const Projects: React.FC = () => {
                   Featured
                 </div>
               )}
-
-              {/* Project Image */}
-              <div className="relative overflow-hidden rounded-lg mb-4"
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <div className="flex gap-4">
-                    <motion.a
-                      href={project.liveUrl}
-                      className="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <EyeIcon className="h-5 w-5" />
-                    </motion.a>
-                    <motion.a
-                      href={project.githubUrl}
-                      className="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <CodeBracketIcon className="h-5 w-5" />
-                    </motion.a>
-                  </div>
-                </div>
-              </div>
 
               {/* Project Content */}
               <div>
