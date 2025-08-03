@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
     category: 'web',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'MaterialUI'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/BuySellRent',
     featured: true
   },
   {
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
     category: 'systems',
     technologies: ['C', 'Sockets', 'Threads', 'TCP/IP', 'LRU Cache'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/NFS',
     featured: true
   },
   {
@@ -38,8 +38,8 @@ const Projects: React.FC = () => {
     category: 'systems',
     technologies: ['C', 'Unix', 'System Programming', '/proc'],
     liveUrl: '#',
-    githubUrl: '#',
-    featured: false
+    githubUrl: 'https://github.com/deepu1965/C-SHELL',
+    featured: true
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
     category: 'database',
     technologies: ['Python', 'MySQL', 'SQL', 'RDBMS'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/Olympics-Database',
     featured: true
   },
   {
@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
     category: 'web',
     technologies: ['Flask', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/Image-Video-Generator',
     featured: false
   },
   {
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
     category: 'database',
     technologies: ['D3.js', 'JavaScript', 'Python', 'HTML', 'CSS'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/Data-Visualisation-',
     featured: true
   },
   {
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
     category: 'iot',
     technologies: ['Arduino', 'C++', 'Polynomial Regression', 'Sensors'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/ML-based-SELF-Adaptive-Collpitts-Oscillator-.git',
     featured: false
   },
   {
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
     category: 'iot',
     technologies: ['IoT', 'Sensors', 'ThingSpeak', 'Microcontrollers'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/IOT-Fire-Detection',
     featured: false
   },
   {
@@ -98,7 +98,7 @@ const Projects: React.FC = () => {
     category: 'iot',
     technologies: ['YOLO NAS', 'DETR', 'Firebase', 'SORT', 'Computer Vision'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/QIDK-Project.git',
     featured: true
   },
   {
