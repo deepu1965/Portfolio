@@ -33,31 +33,32 @@ const Resume: React.FC = () => {
   ];
 
   const experience = [
-    {
-      title: 'Mobile APP Developer Intern',
-      company: 'NVIRI Solutions',
-      period: 'Jan 2025 - Apr 2025',
-      location: 'Remote',
-      description: [
-        'Pursuing Bachelor of Technology in Computer Science & Engineering',
-        'Maintaining CGPA of 6.59/10 with consistent academic performance',
-        'Working on various academic projects and assignments related to CS',
-        'Actively participating in college events'
-      ]
-    },
-    {
-      title: 'Research Student',
-      company: 'IIIT Hyderabad-LTRC(Language Technologies Research Center)',
-      period: '2025 - Present',
-      location: 'Hyderabad, India',
-      description: [
-        'Developed various programming solutions using C, C++, Python, and Java',
-        'Implemented data structures like linked lists, trees, graphs, and hash tables',
-        'Solved algorithmic problems including sorting, searching, and graph algorithms',
-        'Created web applications using HTML, CSS, JavaScript, and React'
-      ]
-    }
-  ];
+  {
+    title: 'Mobile APP Developer Intern',
+    company: 'NVIRI Solutions',
+    period: 'Jan 2025 - Apr 2025',
+    location: 'Remote',
+    description: [
+      'Engineered a scalable full-stack system combining e-commerce and food delivery services, with real-time order tracking, secure payments, and responsive design across devices.',
+      'Integrated RESTful APIs for seamless backend communication and payment gateway integration using Stripe.',
+      'Collaborated with UI/UX designers to ensure a smooth, user-friendly interface across Android and iOS platforms.',
+      'Conducted unit and integration testing to ensure reliability and performance under high load scenarios.'
+    ]
+  },
+  {
+    title: 'Research Student',
+    company: 'IIIT Hyderabad - LTRC (Language Technologies Research Center)',
+    period: 'Apr 2025 - Present',
+    location: 'Hyderabad, India',
+    description: [
+      'Formulating a Japanese-to-English Machine Translation system leveraging advanced Natural Language Processing models to enhance grammatical correctness, contextual understanding, and overall translation quality.',
+      'Conducting comparative analysis of transformer-based architectures like BERT and MarianMT for translation accuracy.',
+      'Preprocessing and curating bilingual datasets to improve model performance and reduce noise in training data.',
+      'Collaborating with senior researchers to publish findings and present results at academic symposiums.'
+    ]
+  }
+];
+
 
   const achievements = [
     {
