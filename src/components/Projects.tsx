@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
     id: 11,
     title: 'CAPTCHA-Cracking',
     description: 'Developed a CNN-LSTM model with CTC loss and OpenCV for CAPTCHA analysis. Created an automated generator for 1000+ synthetic images with varied fonts and noise parameters.',
-    category: 'systems',
+    category: 'AI',
     technologies: ['Python', 'PyTorch', 'OpenCV', 'CNN/LSTM'],
     liveUrl: '#',
     githubUrl: 'https://github.com/deepu1965/CAPCHA-CRACKING.git',
@@ -124,7 +124,7 @@ const Projects: React.FC = () => {
     id: 12,
     title: 'NeuroForge: Multi-Layer Perceptron Framework',
     description: 'Built an MLP framework from scratch with custom backpropagation for classification, regression, and image recognition. Implemented multiple optimizers and activation functions.',
-    category: 'systems',
+    category: 'AI',
     technologies: ['Python', 'NumPy', 'Pandas'],
     liveUrl: '#',
     githubUrl: 'https://github.com/deepu1965/Nuero-Forge.git',
@@ -139,6 +139,7 @@ const Projects: React.FC = () => {
     { id: 'iot', label: 'Algorithms & DSA', count: projects.filter(p => p.category === 'algorithms').length },
     { id: 'database', label: 'Database Systems', count: projects.filter(p => p.category === 'database').length },
     { id: 'systems', label: 'Applications', count: projects.filter(p => p.category === 'applications').length },
+    { id: 'AI', label: 'AI&ML Projects', count: projects.filter(p => p.category === 'AI').length }
   ];
 
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
