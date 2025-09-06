@@ -136,9 +136,9 @@ const Projects: React.FC = () => {
   const categories = [
     { id: 'all', label: 'All Projects', count: projects.length },
     { id: 'web', label: 'Web Development', count: projects.filter(p => p.category === 'web').length },
-    { id: 'iot', label: 'Algorithms & DSA', count: projects.filter(p => p.category === 'algorithms').length },
+    { id: 'iot', label: 'IOT Based', count: projects.filter(p => p.category === 'iot').length },
     { id: 'database', label: 'Database Systems', count: projects.filter(p => p.category === 'database').length },
-    { id: 'systems', label: 'Applications', count: projects.filter(p => p.category === 'applications').length },
+    { id: 'systems', label: 'OS And Nerworks', count: projects.filter(p => p.category === 'systems').length },
     { id: 'AI', label: 'AI&ML Projects', count: projects.filter(p => p.category === 'AI').length }
   ];
 
