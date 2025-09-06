@@ -112,12 +112,22 @@ const Projects: React.FC = () => {
   },
   {
     id: 11,
-    title: 'Student Management System',
-    description: 'Database-driven application for managing student records with CRUD operations and search functionality.',
-    category: 'database',
-    technologies: ['Java', 'MySQL', 'JDBC', 'Swing'],
+    title: 'CAPTCHA-Cracking',
+    description: 'Developed a CNN-LSTM model with CTC loss and OpenCV for CAPTCHA analysis. Created an automated generator for 1000+ synthetic images with varied fonts and noise parameters.',
+    category: 'systems',
+    technologies: ['Python', 'PyTorch', 'OpenCV', 'CNN/LSTM'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/CAPCHA-CRACKING.git',
+    featured: true
+  },
+  {
+    id: 12,
+    title: 'NeuroForge: Multi-Layer Perceptron Framework',
+    description: 'Built an MLP framework from scratch with custom backpropagation for classification, regression, and image recognition. Implemented multiple optimizers and activation functions.',
+    category: 'systems',
+    technologies: ['Python', 'NumPy', 'Pandas'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/deepu1965/Nuero-Forge.git',
     featured: true
   }
 ];
